@@ -1,19 +1,15 @@
 <?php
 
-
-use App\Http\Controllers\Api\PostController;
-use App\Http\Controllers\Api\CommentController;
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::view('/', 'welcome');
 
-Route::middleware('auth:sanctum')->group(function () {
-    Route::apiResource('posts', PostController::class);
-    Route::post('comments', [CommentController::class, 'store']);
-    Route::put('comments/{comment}', [CommentController::class, 'update']);
-    Route::delete('comments/{comment}', [CommentController::class,
-        'destroy']);
-});
+Route::view('dashboard', 'dashboard')
+    ->middleware(['auth', 'verified'])
+    ->name('dashboard');
 
+Route::view('profile', 'profile')
+    ->middleware(['auth'])
+    ->name('profile');
+
+require __DIR__.'/auth.php';

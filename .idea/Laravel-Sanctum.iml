@@ -8,6 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/laravel-sanctum-api/tests" isTestSource="true" packagePrefix="Tests\" />
       <sourceFolder url="file://$MODULE_DIR$/laravel-sanctum-api/tests/Feature" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/laravel-sanctum-api/tests/Unit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/brick/math" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/carbonphp/carbon-doctrine-types" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/composer" />
@@ -25,6 +27,7 @@
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/guzzlehttp/uri-template" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/laravel/breeze" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/laravel/framework" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/laravel/pint" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/laravel/prompts" />
@@ -37,6 +40,8 @@
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/league/flysystem" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/league/flysystem-local" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/livewire/livewire" />
+      <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/livewire/volt" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/laravel-sanctum-api/vendor/myclabs/deep-copy" />
